@@ -5,7 +5,7 @@ usermod -aG sudo user
 cd /home/user
 
 # 1. Welcome
-echo "echo -e 'Welcome The Flag is: NCYU{Welc0me_t0_th3_1abbbbb}'" >> .bashrc
+echo "export PATH=$PATH:/usr/games && echo -e 'Welcome The Flag is: NCYU{Welc0me_t0_th3_1abbbbb}'" >> .bashrc
 
 # 2. ls_cat
 
